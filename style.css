@@ -84,7 +84,7 @@ button{
 }
 .btn{
     display: flex;
-   
+   font-size: 1.5rem;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -144,6 +144,7 @@ button{
     background-color: var(--color4);
     padding-inline: 16px;
     border-radius: 5px;
+    font-size: 1.2rem;
 }
 
 
@@ -153,6 +154,7 @@ button{
 .property .section-text{
     margin-block: 8px 16px;
     color: var(--color6);
+    font-size: 1.3rem;
 }
 .property-list{
     display: grid;
@@ -201,6 +203,9 @@ button{
 .fav-btn{
     color: var(red);
 }
+.title-medium{
+    font-size: 1.2rem;
+}
 
 
 .fav-btn.active span.material-symbols-outlined{
@@ -227,6 +232,7 @@ button{
 .title-large{
     margin-block:8px;
     color: var(--color6);
+    font-size: 1.2rem;
 }
 .card-title{
     margin-block: 8px;
@@ -235,6 +241,7 @@ button{
     overflow: hidden;
     text-overflow: ellipsis;
     transition: all 0.2s ease-in;
+    font-size: 1.5rem;
 
 }
 .card-title:where(:hover,:focus-visible){
@@ -242,6 +249,7 @@ button{
 }
 .card-text{
     color: var(--color2);
+    font-size: 1.30rem;
 }
 .card-meta-list{
     padding-block-start: 16px;
@@ -260,7 +268,9 @@ gap: 4px;
 color: var(--color6);
 
 }
-
+.meta-text{
+    font-size: 1.2rem;
+}
 
 
 .header{
@@ -356,6 +366,7 @@ color: var(--color6);
 }
 .hero-text{
     margin-block:30px;
+    font-size: 1.5rem;
 }
 
 .search-bar{
@@ -374,7 +385,9 @@ color: var(--color6);
 .label{
     padding-inline-start: 24px;
     color: #00668c;
+    font-size: 1.2rem;
 }
+
 
 .search-item .search-item-field{
     border-radius: 6px;
@@ -404,6 +417,7 @@ option{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-size: 1.2rem;
 }
 .search-item .label{
 
@@ -422,6 +436,7 @@ color: var(--color2);
     height: 64px;
 padding-inline: 30px;    
     border-radius: 16px;
+    font-size: 1.5rem;
 
 }
 
@@ -441,7 +456,10 @@ border-radius: 28px;
     padding: 24px 16px 0;
 }
 .feature-content .feature-text{ margin-block:16px;}
-
+.body-text{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
 .body-text ,.feature-item{
     color: var(--color7);
     padding-block: 5px;
@@ -501,6 +519,10 @@ border-radius: 28px;
 
 .story .section-title{
     margin-block: 12px;
+    
+}
+.section-title{
+    font-size: 2rem;
 }
 .avatar-list{
     display: flex;
